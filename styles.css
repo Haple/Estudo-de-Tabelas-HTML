@@ -1,0 +1,28 @@
+#tabelaperiodica{font-family: calibri;}
+td{height: 67px; width: 67; overflow: hidden;}
+.familia a:link, :visited, :active{text-decoration: none; color: #000000;}
+.camadas{vertical-align: top; line-height: 70%; font-size: smaller; color: #707070; }
+/*Quando finalizar a tabela retirar o código a baixo do comentário!!*/
+
+th, td, table, tr{border: none;}
+
+/*formatação dos elementos químicos*/
+.atom{padding: 5px;}
+.atom a:link, :visited, :active{text-decoration: none; color: #000000; text-align: center;}
+.atom big{display: inline-block; text-align: center;}
+.atom div{display: inline-block; vertical-align: top; clear: both; margin: 0; padding: 0px; line-height: 80%;}
+.atom div{margin-left: 3; margin-right: 0; padding: 0px; float: right; font-size: 12px; text-align: right;}
+.atom em, .atom i{font-size: smaller; font-style: normal;}
+.atom abbr{font-weight: bold; font-size: 20px;}
+
+/*Cores de fundo para os elementos*/
+.MetaisAlcalinos{Background-color: #FA0;}
+.MetaisAlcalino-Terrosos{Background-color:#F3F300;}
+.MetaisTransicao{ Background-color:#D99;}
+.Lantanideos{ Background-color:#FA8;}
+.Actinideos{Background-color:#DAC;}
+.MetaisRepresentativos{Background-color:#9BA;}
+.SemiMetais{Background-color:#5C8;}
+.NaoMetais{Background-color:#0E0;}
+.Halogenios{Background-color:#0DB;}
+.GasesNobres{Background-color:#6AF;}
